@@ -1,0 +1,84 @@
+
+html {
+    background: linear-gradient(300deg, #65b8a8, #FCE38A, #F38181);
+    background-size: 180% 180%;
+    animation: gradient-animation 5s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+
+.heading{
+    text-align: center;
+    font-family: "Playwrite DK Loopet", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 50px;
+    
+}
+.play {
+    font-family: "Playwrite DK Loopet", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal
+  }
+
+.container{
+    display: flex;
+    gap: 400px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.player1{
+    text-align: center;
+    font-size: 25px;
+
+}
+.player2{
+    text-align: center;
+    font-size: 25px;
+   
+}
+
+.heading p{
+    font-family: "Playwrite DK Loopet", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 50px;
+    
+}
+
+.footer{
+    text-align: center;
+    padding: 10vh;
+}
+
+button{
+  font-family: "Playwrite DK Loopet", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 2cqb rgb(36, 33, 33);
+    color: rgb(12, 12, 12);
+    background-color: #FC5185;
+    border-color: #FC5185;
+    text-align: center;
+}
